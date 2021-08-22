@@ -1,0 +1,27 @@
+create database food_chain;
+
+use food_chain;
+
+create table ItemsMaster
+(
+itemno int(10) primary key,
+itemname char(40) unique,
+rate int(5)
+);
+
+create table bill
+(
+billno int(3) primary key,
+billdate date,
+name varchar(40),
+billdescription varchar(2000),
+grandtotal int(6)
+);
+
+create table memberdetails
+(
+firstname varchar(40),
+lastname varchar(40),
+mobile int primary key,
+address varchar(300)
+);
