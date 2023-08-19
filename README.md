@@ -37,8 +37,6 @@ The code relies on the following dependencies:
 * Pillow
   
 ## Screenshots
-Images used are not mine.
-
 <img width="523" alt="Screenshot 2021-08-22 at 6 08 36 PM" src="https://user-images.githubusercontent.com/81231340/130355619-0dcf6b01-4694-4f86-b60f-153a5d65d74c.png">
 <img width="524" alt="Screenshot 2021-08-22 at 6 08 46 PM" src="https://user-images.githubusercontent.com/81231340/130355628-0bde7763-4f7f-4e83-9477-1be47c1097a4.png">
 <img width="526" alt="Screenshot 2021-08-22 at 6 08 59 PM" src="https://user-images.githubusercontent.com/81231340/130355630-4dcf4ecb-6c70-463f-8980-fb8b6c67d508.png">
