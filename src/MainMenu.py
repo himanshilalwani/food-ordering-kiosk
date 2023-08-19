@@ -16,7 +16,7 @@ mainWindow.maxsize(600,600)
 mainWindow.minsize(600,600)
 
 #Setting background image
-backgroundImg = Image.open("bg-2.png")
+backgroundImg = Image.open("../images/bg-2.png")
 # backgroundImg = backgroundImg.resize((600,600))
 backgroundImg = ImageTk.PhotoImage(backgroundImg)
 picture = Label(mainWindow, image = backgroundImg).place(x=0, y=0, relwidth = 1,relheight=1)
