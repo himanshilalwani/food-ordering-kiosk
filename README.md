@@ -1,13 +1,41 @@
-# food-ordering-kiosk
+# House of Doughnuts Restaurant Management System
 
-## Description
-1. Used Python’s GUI package TkInter to build a system that lets consumers view the menu, order food, generate bill, and register themselves as members of the restaurant.
-2. Added password-protected functionalities for the manager. As a manager, one can:
-  * Create new items which would directly be displayed in the menu
-  * Modify item names/rates
-  * Delete items
-3. Used database connectivity to store the information in relevant mySQL tables.
+Welcome to <b>House of Doughnuts</b> Restaurant Management System, a project built using Python's Tkinter GUI package. This system enables seamless menu viewing, order placement, bill generation, and membership registration for customers. Additionally, it empowers managers with password-protected functionalities to manage the restaurant's offerings efficiently.
 
+## Features
+* <b>User Interface: </b> The application leverages Tkinter for an intuitive and visually appealing interface for both customers and managers.
+* <b>Menu Exploration: </b> Customers can conveniently explore the enticing menu of House of Doughnuts, reviewing prices before making their selections.
+* <b>Effortless Order Placement and Bill Generation: </b> Customers can build their orders by adding desired items and specifying quantities. The system can calculate comprehensive bills, providing customers with accurate cost breakdowns.
+* <b>Membership Perks: </b> Customers have the option to register as members, granting them access to special offers.
+* <b>Managerial Privileges: </b>  Managers possess password-protected access to critical functionalities:
+  *  <b>New Item Creation: </b> Managers can effortlessly introduce new items, which immediately appear on the menu for customer perusal.
+  *  <b>Item Details Modification: </b>Managers can update item names and rates to reflect any alterations accurately.
+  *  <b>Item Deletion: </b> Managers hold the authority to eliminate items that are no longer available.
+* <b>Database Integration: </b> The system utilizes mySQL-connector-python for seamless interaction with the database. The following tables are utilized:
+  * <b>ItemsMaster: </b> Stores menu item information, including item number, name, and rate.
+  * <b>Bill: </b>Manages bill details, including bill number, date, customer name, description, and total.
+  * <b>MemberDetails: </b> Maintains member information, including first name, last name, mobile number (primary key), and address.
+
+## Instructions
+* Open a terminal or command prompt.
+* Navigate to the src directory.
+* Run the code by executing the following command: `python3 MainMenu.py`
+
+## Project Structure
+The project is organized into the following files, each contributing to specific functionalities of the application:
+* MainMenu.py: This module contains the main menu class, responsible for initializing the application and presenting the user with the main options to either display the menu, place an order, register as a member, or access manager functions.
+* ShowMenu.py: This module is responsible for displaying the menu to customers. It provides information about menu items, including their names and rates.
+* OrderFood.py: The order food modules handles the order placement process. Customers can select items, specify quantities, and proceed to checkout.
+* Manager.py: The manager modules provides password-protected access to managerial functionalities. Managers can add new menu items, modify existing items, and remove items from the menu.
+* Register.py: The registration modules allows customers to become members by providing their details.
+
+## Dependencies
+The code relies on the following dependencies:
+* Tkinter
+* mysql-connector-python
+* Pandas
+* Pillow
+  
 ## Screenshots
 Images used are not mine.
 
